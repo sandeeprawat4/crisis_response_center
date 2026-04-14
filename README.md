@@ -88,7 +88,6 @@ python -m google.adk.cli run .
 - **Smart Reordering** - Automated restock calculations
 - **8 ERP Tools** - Full logistics operation support
 
-See [HTTP_TRANSPORT_MIGRATION.md](docs/HTTP_TRANSPORT_MIGRATION.md) for architecture details.
 
 ### RAG System
 ## 🏗️ Project Structure
@@ -129,7 +128,6 @@ crisis_response_center/
 
 ## 📖 Documentation
 
-- **[HTTP Transport Migration](docs/HTTP_TRANSPORT_MIGRATION.md)** - Architecture details and performance comparison
 - **[ERP Server](mcp_servers/erp_logistics/README.md)** - MCP server for logistics tools
 
 ## 🧪 Testing
@@ -209,10 +207,4 @@ Configured via `config/logging_config.py`. Logs to console by default.
 
 Edit `mcp_servers/erp_logistics/server.py` and replace the `MOCK_*` dictionaries with real API calls to your ERP system.
 
-## 📄 License
 
-MIT License - See LICENSE file for details
-
----
-
-**Crisis Response Center** • Powered by Google ADK & MCP
