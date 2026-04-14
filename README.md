@@ -82,9 +82,6 @@ python -m google.adk.cli run .
 - **Communications Agent** - Public alerts and messaging
 
 ### ERP Integration via MCP (HTTP Transport)
-- ✅ **Production Architecture** - FastAPI server with REST endpoints
-- ✅ **No Event Loop Conflicts** - Clean HTTP requests, no async complexity
-- ✅ **5x Faster** - Persistent server vs process spawning
 - **Real-time Inventory** - Multi-warehouse stock management
 - **Shipment Tracking** - Live logistics coordination
 - **Supplier Database** - Lead times and reliability scores
