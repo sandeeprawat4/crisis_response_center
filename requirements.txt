@@ -1,0 +1,23 @@
+# Core Agent Framework
+google-adk
+
+# Google Generative AI SDK
+google-genai
+
+# Environment variable management
+python-dotenv
+
+# RAG System Dependencies
+faiss-cpu              # Vector database for semantic search
+sentence-transformers  # Embeddings model
+pypdf                  # PDF parsing
+numpy                  # Numerical operations
+
+# Recommended for specialized agents & tools
+requests  # For external API calls in Communications Agent
+uvicorn   # For running the ADK web interface local server
+
+# MCP Server Dependencies
+mcp         # Model Context Protocol SDK for building MCP servers
+fastapi     # Web framework for HTTP transport
+httpx       # HTTP client for calling MCP server

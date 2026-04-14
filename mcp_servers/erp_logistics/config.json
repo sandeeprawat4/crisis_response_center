@@ -1,0 +1,22 @@
+{
+  "server_name": "erp-logistics",
+  "version": "1.0.0",
+  "description": "ERP (Enterprise Resource Planning) MCP Server for Crisis Response Center Logistics",
+  "tools_count": 8,
+  "capabilities": [
+    "Inventory Management",
+    "Warehouse Information",
+    "Shipment Tracking",
+    "Supplier Database",
+    "Availability Checks",
+    "Reorder Point Calculations"
+  ],
+  "data_source": "mock",
+  "mock_data": {
+    "items": ["medical_supplies", "water", "food_rations", "blankets", "tents"],
+    "warehouses": ["warehouse_a", "warehouse_b", "warehouse_c"],
+    "shipments": ["SHP-001", "SHP-002", "SHP-003"],
+    "suppliers": ["SUP-001", "SUP-002", "SUP-003"]
+  },
+  "notes": "Currently using mock data. Replace with real ERP API integration as needed."
+}
